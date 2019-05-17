@@ -1,0 +1,49 @@
+.mcm-user-list-wrapper, select.mcm-role  {
+  font-family: Arial;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+table.mcm-user-list {
+  border: 1px solid black;
+}
+
+table.mcm-user-list th {
+  font-weight: bold;
+}
+
+table.mcm-user-list th, table.mcm-user-list td {
+  font-family: Arial;
+}
+
+.mcm-error {
+  color: red;
+}
+
+.mcm-pagination {
+  font-size: 13px;
+}
+
+.mcm-users-pagination li {
+  display: inline;
+  padding-left: 5px;
+  padding-right: 5px; 
+}
+
+.mcm-num-found {
+  font-style: italic;
+}
+
+/* sort icon */
+.mcm-sort-by-desc {
+    left: 3px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid 5px transparent;
+    margin: 4px 4px 0 3px;
+    background: transparent;
+    border-top: solid 7px black;
+    border-bottom-width: 0;
+}
